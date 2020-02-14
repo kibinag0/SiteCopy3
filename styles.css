@@ -10,6 +10,9 @@ body{
     margin: auto;
 }
 
+h1, h2, h3, h4, p{
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;;
+}
 
 
 /* ここからheader */
@@ -41,7 +44,7 @@ h1{
 .header-text{
     margin: 0;
     font-size: 18px;
-    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;;
+    
 
 }
 
@@ -61,3 +64,34 @@ h1{
     border-color:  transparent transparent #565656 #565656;
     transform: rotate(-45deg);
 }
+
+/* ここからmainコンテンツ */
+
+.main-first-box{
+    margin-top: 80px;
+
+}
+
+.main-img{
+    
+    background-image: url(images/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1035px;
+}
+
+.main-catchy-phrase{
+    margin-top: 90px;
+    font-size: 27px;
+    font-weight: 10;
+    line-height: 1.8;
+
+}
+
+
+/* ここからブログ投稿表示部分 */
+
+
+
+
