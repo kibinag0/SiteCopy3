@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: cadetblue;
+}
+
+.main-wrapper{
+    width: 1035px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+
+
+/* ここからheader */
+
+.header-box{
+    background-color: darkblue;
+    margin-top: 62px;
+}
+
+h1{
+    font-family: Georgia;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.header-contents{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-menu{
+    background-color: darkgoldenrod;
+    width: 500px;
+    padding-left: 0;
+}
+
+.header-text{
+    margin: 0;
+    font-size: 18px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;;
+
+}
+
+.header-menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+}
+
+.down-arrow{
+    margin-bottom: 3px;;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 1px solid;
+    border-color:  transparent transparent #565656 #565656;
+    transform: rotate(-45deg);
+}
