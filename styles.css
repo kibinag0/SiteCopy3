@@ -1,12 +1,10 @@
 body{
     width: 100%;
     margin: 0;
-    background-color: cadetblue;
 }
 
 .main-wrapper{
     width: 1035px;
-    background-color: aquamarine;
     margin: auto;
 }
 
@@ -18,7 +16,6 @@ h1, h2, h3, h4, p{
 /* ここからheader */
 
 .header-box{
-    background-color: darkblue;
     margin-top: 62px;
 }
 
@@ -36,7 +33,6 @@ h1{
 }
 
 .header-menu{
-    background-color: darkgoldenrod;
     width: 500px;
     padding-left: 0;
     padding-right: 25px;
@@ -104,20 +100,16 @@ h1{
 
 
 .blog-post-main-wrapper{
-
-    background-color: darkgoldenrod;
     width: 1035px;
     margin-top: 110px;
 }
 
 .blog-post-box{
     display: flex;
-    background-color: darksalmon;
     margin-bottom: 53px;
 }
 
 .blog-date{
-    background-color: darkseagreen;
     width: 335px;
 }
 
@@ -127,7 +119,6 @@ h1{
 }
 
 .blog-post{
-    background-color: gainsboro;
     width: 700px;
 }
 
@@ -135,6 +126,7 @@ h1{
     margin-top: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
+    letter-spacing: 0.2px;
 }
 
 .blog-content{
@@ -156,7 +148,6 @@ h1{
 .number-box{
     height: 46px;
     width: 45px;
-    background-color: blue;
     border: 1px solid #ccc;
 }
 
@@ -169,7 +160,6 @@ h1{
 .number-box-next{
     height: 46px;
     width: 83px;
-    background-color: blue;
     border: 1px solid #ccc;
 }
 
@@ -179,9 +169,123 @@ h1{
 }
 
 hr{
-    margin-bottom: 105px;
     border-color: #eee;
+    margin-bottom: 3px;
 }
 
+
+/* ここからfooter */
+
+.first-footer-wrapper{
+    width: 1035px;
+    height: 380px;
+    padding-top: 70px;
+    display: flex;
+}
+
+.profile-box{
+    width: 260px;
+    padding-right: 75px;
+}
+
+.profile-first-box{
+    display: flex;
+    width: 260px;
+
+}
+
+.profile-photo{
+    background-image: url(images/profile-img.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-info{
+    font-weight: 700;
+    width: 130px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.profile-info p{
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.profile-sns-box{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #999;
+}
+
+.profile-second-box p{
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: -1.1px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.footer-title{
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.footer-right{
+    width: 213px;
+}
+
+
+.footer-right-text{
+    font-size: 15px;
+    margin-top: 0;
+    letter-spacing: 0.9px;
+    line-height: 1.75;
+    color: #666;
+}
+
+.recent-posts{
+    margin: 0 40px 0 39px;
+    width: 193px;
+}
+
+
+.footer-link{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #666;
+    border-bottom: solid 1px #ddd;
+}
+
+.date-footer{
+    margin-top: 5px;
+    letter-spacing: -1px;
+    color: #999;
+}
+
+.categories{
+    width: 214px;
+
+}
+
+
+.search-box{
+    margin-top: 95px;
+}
+
+.form-text{
+    font-size: 16px;
+    padding: 10.130px;
+    width: 191px;
+}
 
 
