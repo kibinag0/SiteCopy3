@@ -45,6 +45,7 @@ h1{
 .header-text-theme{
     font-size: 19px;
     letter-spacing: -0.7px;
+    color: #666;
 
 }
 
@@ -92,6 +93,7 @@ h1{
     font-size: 27px;
     font-weight: 10;
     line-height: 1.8;
+    color: #777;
 
 }
 
@@ -116,6 +118,7 @@ h1{
 .blog-date p{
     margin-top: 8px;
     font-size: 17px;
+    color: #999;
 }
 
 .blog-post{
@@ -133,6 +136,7 @@ h1{
     font-size: 17px;
     line-height: 1.8;
     letter-spacing: -0.1px;
+    color: #666;
 }
 
 .blog-next-box{
@@ -288,4 +292,29 @@ hr{
     width: 191px;
 }
 
+/* ここから2つ目のfooter */
+.second-footer-wrapper{
+    width: 1035px;
+    height: 110px;
+    padding-top: 60px;
+}
 
+.second-footer-box{
+    height: 25px;
+    display: flex;
+}
+
+.footer-sns-box{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #999;
+}
+
+.footer-copyright p{
+    margin-top: 0;
+    margin-left: 225px;
+    letter-spacing: -0.1px;
+    color: #999;
+}
