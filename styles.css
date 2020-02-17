@@ -79,18 +79,43 @@ h1{
 
 
 .homemenu{
+    position: relative;
     padding-left: 0;
 }
 
 .submenu{
     position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border: 1px solid #eee;
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+
+}
+
+.submenu2{
+    background-color: white;
+    position: absolute;
+    width: 200px;
     display: none;
     list-style: none;
     padding-left: 0;
+    transition-duration: 1s;
+}
+
+.submenu2-inside{
+    padding: 10px 20px;
+    border: 1px solid #eee;
 }
 
 
-.homemenu:hover .submenu{
+.sub1:hover .submenu{
+    display: block;
+} 
+
+.sub2:hover .submenu2{
     display: block;
 } 
 
