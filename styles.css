@@ -12,6 +12,11 @@ h1, h2, h3, h4, p{
     font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* ここからheader */
 
@@ -55,7 +60,7 @@ h1{
 }
 
 
-.header-menu ul{
+.header-menu > ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -71,6 +76,23 @@ h1{
     border-color:  transparent transparent #565656 #565656;
     transform: rotate(-45deg);
 }
+
+
+.homemenu{
+    padding-left: 0;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.homemenu:hover .submenu{
+    display: block;
+} 
 
 /* ここからmainコンテンツ */
 
